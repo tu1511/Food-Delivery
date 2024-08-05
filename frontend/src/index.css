@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  /* background-color: rgb(247, 239, 245); */
+  background: radial-gradient(at 0% 0%, rgb(234, 218, 228) 0px, transparent 50%),
+    radial-gradient(at 13% 36%, rgb(255, 255, 255) 0px, transparent 50%),
+    radial-gradient(at 56% 86%, rgb(255, 255, 255) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgb(153, 193, 219) 0px, transparent 50%),
+    radial-gradient(at 56% 50%, hsla(302, 81%, 90%, 1) 0px, transparent 50%);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app {
+  width: 80%;
+  margin: auto;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.pagination li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.pagination li a {
+  color: #000000;
+  text-decoration: none;
+  padding: 8px 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination .active a {
+  background-color: #007bff;
+  color: white;
+  cursor: default;
+}

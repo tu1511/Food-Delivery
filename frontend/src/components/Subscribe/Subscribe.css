@@ -1,0 +1,37 @@
+.subscribe-section {
+  margin-bottom: 1rem 0 5rem; /* mb-20 */
+  background-color: #df5555; /* bg-gray-100 */
+  color: #000000; /* text-white */
+  position: relative;
+}
+
+.subscribe-container {
+  backdrop-filter: blur(10px); /* backdrop-blur-sm */
+  padding: 2.5rem 0; /* py-10 */
+  margin: 20px;
+}
+
+.subscribe-content {
+  max-width: 40rem; /* max-w-xl */
+  margin: 0 auto; /* mx-auto */
+  text-align: center;
+}
+
+.subscribe-title {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600; /* font-semibold */
+  margin-bottom: 10px;
+}
+
+@media (min-width: 640px) {
+  .subscribe-title {
+    text-align: left; /* sm:text-left */
+    font-size: 2.25rem; /* sm:text-4xl */
+  }
+}
+
+.subscribe-input {
+  width: 100%; /* w-full */
+  padding: 0.75rem; /* p-3 */
+  font-size: 1rem; /* Base font size */
+}
